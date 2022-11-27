@@ -1,10 +1,10 @@
-# Developing a Neural Network Regression Model
+## Developing a Neural Network Regression Model
 
-## AIM
+## AIM:
 
 To develop a neural network regression model for the given dataset.
 
-## THEORY
+## THEORY:
 
 Neural network regression is a supervised learning method, and therefore requires a tagged dataset, which includes a label column. Because a regression model predicts a numerical value, the label column must be a numerical data type. You can train the model by providing the model and the tagged dataset as an input to Train Model.
 
@@ -12,11 +12,11 @@ In this experiment we need to develop a Neural Network Regression Model so first
 
 The Neural Network model is a composition of Input layer, Hidden layers and Output layer. The below given model consists of 1 input layer, 2 hidden layers and 1 output layer. The input layer has 2 inputs in which the each inputs are linked to each of the units in the hidden layer 1 and each of the units in the hidden layer 1 is linked to that of the units in the hidden layer 2. And all those units of the 2nd hidden layer is linked to the outputs in the output layer. By the implementation of ReLU function, the below model is worked out.
 
-## Neural Network Model
+## Neural Network Model:
 
 ![log](d1.png)
 
-## DESIGN STEPS
+## DESIGN STEPS:
 
 ### STEP 1:
 
@@ -46,7 +46,7 @@ Plot the performance plot
 
 Evaluate the model with the testing data.
 
-## PROGRAM
+## PROGRAM:
 
 ```
 NAME: Silambarasan K
@@ -134,23 +134,23 @@ ai_brain.predict(X_n1_1)
 
 ```
 
-## Dataset Information
+## Dataset Information:
 
 ![log](out1.png)
 
 ## OUTPUT
-### Load and read dataset
+### Load and read dataset:
 ![log](r1.png)
 ![log](r2.png)
 ![log](r3.png)
-### Training Loss Vs Iteration Plot
+### Training Loss Vs Iteration Plot:
 
 ![log](R5.png)
 
-### Test Data Root Mean Squared Error
+### Test Data Root Mean Squared Error:
 ![log](R6.png)
 
-### New Sample Data Prediction
+### New Sample Data Prediction:
 ![log](r7.png)
-## RESULT
+## RESULT:
 Thus a neural network model for regression using the given dataset is written and executed successfully.
