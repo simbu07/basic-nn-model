@@ -14,7 +14,7 @@ The Neural Network model is a composition of Input layer, Hidden layers and Outp
 
 ## Neural Network Model
 
-![log](neuralnetwork.png)
+![log](d1.png)
 
 ## DESIGN STEPS
 
