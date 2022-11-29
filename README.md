@@ -3,18 +3,15 @@
 ## AIM:
 
 To develop a neural network regression model for the given dataset.
-
 ## THEORY:
 
 Neural network regression is a supervised learning method, and therefore requires a tagged dataset, which includes a label column. Because a regression model predicts a numerical value, the label column must be a numerical data type. You can train the model by providing the model and the tagged dataset as an input to Train Model.
-
 In this experiment we need to develop a Neural Network Regression Model so first we need to create a dataset (i.e : an excel file with some inputs as well as corresponding outputs).Then upload the sheet to drive then using corresponding code open the sheet and then import the required python libraries for porcessing.
 
 The Neural Network model is a composition of Input layer, Hidden layers and Output layer. The below given model consists of 1 input layer, 2 hidden layers and 1 output layer. The input layer has 2 inputs in which the each inputs are linked to each of the units in the hidden layer 1 and each of the units in the hidden layer 1 is linked to that of the units in the hidden layer 2. And all those units of the 2nd hidden layer is linked to the outputs in the output layer. By the implementation of ReLU function, the below model is worked out.
-
 ## Neural Network Model:
+![img](d1.png)
 
-![log](d1.png)<img src="https://github.com/simbu07/basic-nn-model/blob/main/d1.png"width="50" height="60">
 
 ## DESIGN STEPS:
 
