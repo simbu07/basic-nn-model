@@ -10,8 +10,8 @@ In this experiment we need to develop a Neural Network Regression Model so first
 
 The Neural Network model is a composition of Input layer, Hidden layers and Output layer. The below given model consists of 1 input layer, 2 hidden layers and 1 output layer. The input layer has 2 inputs in which the each inputs are linked to each of the units in the hidden layer 1 and each of the units in the hidden layer 1 is linked to that of the units in the hidden layer 2. And all those units of the 2nd hidden layer is linked to the outputs in the output layer. By the implementation of ReLU function, the below model is worked out.
 ## Neural Network Model:
-![d12]()
-<img src="https://user-images.githubusercontent.com/94525786/204524691-48ebb2cd-4740-4e55-a661-1d4dd70c6ea3.png" width=50% height=50% />
+
+<img src="https://user-images.githubusercontent.com/94525786/204524691-48ebb2cd-4740-4e55-a661-1d4dd70c6ea3.png" width=40% height=40% />
 
 ## DESIGN STEPS:
 
